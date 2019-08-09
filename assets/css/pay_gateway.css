@@ -1,0 +1,51 @@
+.main_div{
+    max-width:750px;
+    height:650px;
+    width: auto;
+    margin:10px auto;
+}
+.ip {
+    margin-top: 15px;
+    height: 210px;
+    float: left;
+    width: 600px;
+    text-align: center;
+    background-color: white;
+    padding-top:40px;
+    padding-bottom: 20px;
+    border-radius: 12px;
+}
+
+.ip p {
+    font-size: 25px;
+}
+.baner_top{
+    border-radius: 12px;
+    float: left;
+    display: inline-flex;
+    width: 600px;
+    height:300px;
+    background-color: white;
+}
+.baner_left{
+    float: left;
+    display: inline-flex;
+    margin-right: 30px;
+    width:120px;
+    background-color: white;
+    height:600px;
+    border-radius: 12px;
+
+}
+@media only screen and (max-width :810px) {
+    .baner_left{
+        display: none;
+    }
+    .baner_top{
+        width:100%;
+    }
+    .ip{
+        width:100%;
+    }
+
+}

@@ -1,0 +1,151 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2019-01-24 21:28+0330\n"
+"PO-Revision-Date: 2019-01-24 21:30+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: class-gateway.php:24 class-gateway.php:66 pay-ir-wc-gateway.php:54
+msgid "PAY gateway for Woocommerce"
+msgstr "درگاه پرداخت پی"
+
+#: class-gateway.php:25
+msgid "Official pay.ir electronic payment gateway for Woocommerce"
+msgstr "درگاه رسمی پرداخت الکترونیک پی.آی آر برای ووکامرس"
+
+#: class-gateway.php:57
+msgid "Enable/Disable"
+msgstr "فعال / غیرفعال"
+
+#: class-gateway.php:59
+msgid "Enable pay gateway"
+msgstr "فعال سازی درگاه پرداخت پی.ای ار"
+
+#: class-gateway.php:63
+msgid "Title"
+msgstr "عنوان"
+
+#: class-gateway.php:65
+msgid "This controls the title which the user sees during checkout."
+msgstr "عنوانی که کاربر در صفحه پرداخت میبیند."
+
+#: class-gateway.php:70
+msgid "Logo"
+msgstr "لوگوی نمایش داده شده"
+
+#: class-gateway.php:74
+msgid "Pay"
+msgstr "درگاه پرداخت پی"
+
+#: class-gateway.php:75
+msgid "Saman"
+msgstr "درگاه پرداخت بانک سامان"
+
+#: class-gateway.php:79
+msgid "Description"
+msgstr "توضیح"
+
+#: class-gateway.php:81
+msgid "Payment method description that the customer will see on your checkout."
+msgstr "توضیح روش پرداخت که کاربر در صفحه پرداخت میبیند."
+
+#: class-gateway.php:82
+msgid "Official pay.ir electronic payment gateway"
+msgstr "درگاه رسمی پرداخت الکترونیک پی.آی آر"
+
+#: class-gateway.php:86
+msgid "api key"
+msgstr "کلید API"
+
+#: class-gateway.php:88
+msgid "Insert merchant id that received from pay"
+msgstr "وارد کردن کد تراکنش دریافتی"
+
+#: class-gateway.php:91
+msgid "successful payment message"
+msgstr "پیغام پرداخت موفق "
+
+#: class-gateway.php:93
+msgid "thanks text for successful payment"
+msgstr "پیغام تشکر برای پرداخت موفق"
+
+#: class-gateway.php:96
+msgid "Failed payment message"
+msgstr "پیغام پرداخت ناموفق"
+
+#: class-gateway.php:98
+msgid "Text for failed payment"
+msgstr "متن پیغام پرداخت ناموفق"
+
+#: class-gateway.php:101
+msgid "Test mode"
+msgstr "حالت تست"
+
+#: class-gateway.php:103
+msgid "Activate test mode"
+msgstr "فعال کردن حالت تست"
+
+#: class-gateway.php:130
+msgid "Thank you for your payment. redirecting to bank..."
+msgstr "از پرداخت شما متشکریم. در حال انتقال به درگاه بانک..."
+
+#: class-gateway.php:182
+msgid "Payment error:"
+msgstr "خطای پرداخت:"
+
+#: class-gateway.php:229
+#, php-format
+msgid "Payment was successful %s Tracking Code: %s"
+msgstr "پرداخت با موفقیت انجام شد %s. کد پیگیری:  %s"
+
+#: class-gateway.php:241 class-gateway.php:251
+msgid "Payment error: "
+msgstr "خطای پرداخت: "
+
+#: class-gateway.php:264
+msgid "Tracking Code:"
+msgstr "کد پیگیری:"
+
+#: pay-ir-wc-gateway.php:55
+msgid "Pay.ir payment gateway for Woocommerce"
+msgstr "درگاه پرداخت پی.آي ار برای ووکامرس"
+
+#: pay-ir-wc-gateway.php:56
+msgid "RadiRan"
+msgstr "راد ایران"
+
+#: pay-ir-wc-gateway.php:146
+msgid "show server ip"
+msgstr "مشاهده آي پی سرور"
+
+#: pay-ir-wc-gateway.php:167
+msgid "your server ip for pay gateway"
+msgstr "آی پی سرور شما برای درگاه پی دات آي آر"
+
+#~ msgid "Mojtaba Darvishi"
+#~ msgstr "مجتبی درویشی"
+
+#~ msgid "gateway icon"
+#~ msgstr "آیکون درگاه پرداخت"
+
+#~ msgid "upload"
+#~ msgstr "بارگذاری"
+
+#~ msgid "choose gateway icon"
+#~ msgstr "انتخاب آیکون درگاه"
+
+#~ msgid "thanks text for complete transaction"
+#~ msgstr "پیام تشکر برای "
+
+#~ msgid "Official Saman electronic payment gateway for Woocommerce"
+#~ msgstr "درگاه رسمی پرداخت الکترونیکی پی.آی ار"
