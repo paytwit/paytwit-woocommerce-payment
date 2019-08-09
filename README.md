@@ -1,5 +1,5 @@
 # paytwit-woocommerce-payment
-A Plugin For Wocommerce Payment
+A Plugin For Wocommerce Getway Payment
 
 # Install
 1-Download the plugin
