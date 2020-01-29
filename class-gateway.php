@@ -157,16 +157,14 @@ class Paytwit_WC_gateway extends WC_Payment_Gateway {
 		);
 
 
-
 		if ( is_wp_error( $response ) ) {
 			$error_message = $response->get_error_message();
 			echo "Something went wrong: $error_message";
 		} else {
 			$body=wp_remote_retrieve_body($response);
 			$result = json_decode($body);
-			$status= $result->status;
 			
-
+			$status= $result->status;
 			if($status == 1){
 				// Send post method
 				$trans_id=$result->transId;
@@ -211,12 +209,16 @@ class Paytwit_WC_gateway extends WC_Payment_Gateway {
 					);
 
 					
+
+					
 					if ( is_wp_error( $response ) ) {
 						$error_message = $response->get_error_message();
 						echo "Something went wrong: $error_message";
 					} else {
 						$body=wp_remote_retrieve_body($response);
 						$result = json_decode($body);
+
+
 						$status= $result->status;
 						if($status == 1){
 							// transaction is complete
