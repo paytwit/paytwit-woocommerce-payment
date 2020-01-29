@@ -143,7 +143,7 @@ class Paytwit_WC_gateway extends WC_Payment_Gateway {
 		$unique_order_id = time();
 		$callback_url = add_query_arg('wc_order', $order_id, WC()->api_request_url('Paytwit_WC_gateway'));
 		WC()->session->set( 'pay_order_id' , $order_id );
-		$url='http://paytwit.com/api/v1/sendgateway';
+		$url='https://www.paytwit.com/api/v1/sendgateway';
 		$id = '1000033747' ;
 		$response = wp_remote_post( $url, array(
 				'body' => array(
@@ -157,6 +157,7 @@ class Paytwit_WC_gateway extends WC_Payment_Gateway {
 		);
 
 
+
 		if ( is_wp_error( $response ) ) {
 			$error_message = $response->get_error_message();
 			echo "Something went wrong: $error_message";
@@ -164,10 +165,12 @@ class Paytwit_WC_gateway extends WC_Payment_Gateway {
 			$body=wp_remote_retrieve_body($response);
 			$result = json_decode($body);
 			$status= $result->status;
+			
+
 			if($status == 1){
 				// Send post method
 				$trans_id=$result->transId;
-				$send_url='http://paytwit.com/gateway/'.$trans_id;
+				$send_url='https://paytwit.com/gateway/'.$trans_id;
 				wp_redirect($send_url, 301);
 			} else {
 				$error_message = $result->errorMessage;
@@ -198,7 +201,7 @@ class Paytwit_WC_gateway extends WC_Payment_Gateway {
 
 				if($status == 1 ) {
 					// BOOM! Payment completed!
-					$url='http://paytwit.com/api/v1/verifygateway';
+					$url='https://www.paytwit.com/api/v1/verifygateway';
 					$response = wp_remote_post( $url, array(
 							'body' => array(
 								'api' => $login_account,
